@@ -12,17 +12,17 @@ class Sample2 extends JFrame implements ActionListener
         t3=new JTextField();
         b1=new JButton("+");
         b2=new JButton("-");
-        t1.setBounds(100,150,100,60);
-        t2.setBounds(100,100,100,60);
-        t3.setBounds(100,50,100,60);
-        b1.setBounds(100,30,50,20);
-        b2.setBounds(150,30,50,20);
+        t1.setBounds(150,50,100,30);
+        t2.setBounds(150,100,100,30);
+        t3.setBounds(150,150,100,30);
+        b1.setBounds(150,200,50,20);
+        b2.setBounds(200,200,50,20);
         add(t1);
         add(t2);
         add(t3);
         add(b1);
         add(b2);
-        setTitle("addition");
+        setTitle("Calculator");
         setSize(500,600);
         b1.addActionListener(this); //regestering the component with the listener
         b2.addActionListener(this);
